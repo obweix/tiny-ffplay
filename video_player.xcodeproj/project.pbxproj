@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2E209AEC2A5AD631005E8128 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2E209AEB2A5AD631005E8128 /* main.cpp */; };
+		2E209AFB2A5ADDAA005E8128 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AF32A5ADDAA005E8128 /* libavdevice.a */; };
+		2E209AFC2A5ADDAA005E8128 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AF42A5ADDAA005E8128 /* libavcodec.a */; };
+		2E209AFD2A5ADDAA005E8128 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AF52A5ADDAA005E8128 /* libavfilter.a */; };
+		2E209AFE2A5ADDAA005E8128 /* libpostproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AF62A5ADDAA005E8128 /* libpostproc.a */; };
+		2E209AFF2A5ADDAA005E8128 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AF72A5ADDAA005E8128 /* libswresample.a */; };
+		2E209B002A5ADDAA005E8128 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AF82A5ADDAA005E8128 /* libavformat.a */; };
+		2E209B012A5ADDAA005E8128 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AF92A5ADDAA005E8128 /* libavutil.a */; };
+		2E209B022A5ADDAA005E8128 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AFA2A5ADDAA005E8128 /* libswscale.a */; };
+		2E80BAF02AAC5387007104D7 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80BAEC2AAC5387007104D7 /* libSDL2.a */; };
+		2E80BAF12AAC5387007104D7 /* libSDL2main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80BAED2AAC5387007104D7 /* libSDL2main.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +35,16 @@
 /* Begin PBXFileReference section */
 		2E209AE82A5AD631005E8128 /* video_player */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = video_player; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E209AEB2A5AD631005E8128 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2E209AF32A5ADDAA005E8128 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libavdevice.a; sourceTree = "<group>"; };
+		2E209AF42A5ADDAA005E8128 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libavcodec.a; sourceTree = "<group>"; };
+		2E209AF52A5ADDAA005E8128 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavfilter.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libavfilter.a; sourceTree = "<group>"; };
+		2E209AF62A5ADDAA005E8128 /* libpostproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpostproc.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libpostproc.a; sourceTree = "<group>"; };
+		2E209AF72A5ADDAA005E8128 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libswresample.a; sourceTree = "<group>"; };
+		2E209AF82A5ADDAA005E8128 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libavformat.a; sourceTree = "<group>"; };
+		2E209AF92A5ADDAA005E8128 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libavutil.a; sourceTree = "<group>"; };
+		2E209AFA2A5ADDAA005E8128 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libswscale.a; sourceTree = "<group>"; };
+		2E80BAEC2AAC5387007104D7 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = ../../../../../../opt/homebrew/Cellar/sdl2/2.28.2/lib/libSDL2.a; sourceTree = "<group>"; };
+		2E80BAED2AAC5387007104D7 /* libSDL2main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2main.a; path = ../../../../../../opt/homebrew/Cellar/sdl2/2.28.2/lib/libSDL2main.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E80BAF02AAC5387007104D7 /* libSDL2.a in Frameworks */,
+				2E80BAF12AAC5387007104D7 /* libSDL2main.a in Frameworks */,
+				2E209AFC2A5ADDAA005E8128 /* libavcodec.a in Frameworks */,
+				2E209AFB2A5ADDAA005E8128 /* libavdevice.a in Frameworks */,
+				2E209AFD2A5ADDAA005E8128 /* libavfilter.a in Frameworks */,
+				2E209B002A5ADDAA005E8128 /* libavformat.a in Frameworks */,
+				2E209B012A5ADDAA005E8128 /* libavutil.a in Frameworks */,
+				2E209AFE2A5ADDAA005E8128 /* libpostproc.a in Frameworks */,
+				2E209AFF2A5ADDAA005E8128 /* libswresample.a in Frameworks */,
+				2E209B022A5ADDAA005E8128 /* libswscale.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +73,7 @@
 			children = (
 				2E209AEA2A5AD631005E8128 /* video_player */,
 				2E209AE92A5AD631005E8128 /* Products */,
+				2E209AF22A5ADC56005E8128 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +91,23 @@
 				2E209AEB2A5AD631005E8128 /* main.cpp */,
 			);
 			path = video_player;
+			sourceTree = "<group>";
+		};
+		2E209AF22A5ADC56005E8128 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E80BAEC2AAC5387007104D7 /* libSDL2.a */,
+				2E80BAED2AAC5387007104D7 /* libSDL2main.a */,
+				2E209AF42A5ADDAA005E8128 /* libavcodec.a */,
+				2E209AF32A5ADDAA005E8128 /* libavdevice.a */,
+				2E209AF52A5ADDAA005E8128 /* libavfilter.a */,
+				2E209AF82A5ADDAA005E8128 /* libavformat.a */,
+				2E209AF92A5ADDAA005E8128 /* libavutil.a */,
+				2E209AF62A5ADDAA005E8128 /* libpostproc.a */,
+				2E209AF72A5ADDAA005E8128 /* libswresample.a */,
+				2E209AFA2A5ADDAA005E8128 /* libswscale.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +293,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/ffmpeg/6.0/lib,
+					/opt/homebrew/Cellar/sdl2/2.28.2/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/ffmpeg/6.0/include,
+					/opt/homebrew/Cellar/sdl2/2.28.2/include,
+				);
 			};
 			name = Debug;
 		};
@@ -253,7 +310,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/Cellar/ffmpeg/6.0/lib,
+					/opt/homebrew/Cellar/sdl2/2.28.2/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = (
+					/opt/homebrew/Cellar/ffmpeg/6.0/include,
+					/opt/homebrew/Cellar/sdl2/2.28.2/include,
+				);
 			};
 			name = Release;
 		};
