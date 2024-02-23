@@ -18,6 +18,11 @@
 		2E209B022A5ADDAA005E8128 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E209AFA2A5ADDAA005E8128 /* libswscale.a */; };
 		2E80BAF02AAC5387007104D7 /* libSDL2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80BAEC2AAC5387007104D7 /* libSDL2.a */; };
 		2E80BAF12AAC5387007104D7 /* libSDL2main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80BAED2AAC5387007104D7 /* libSDL2main.a */; };
+		2EB0E7C72B87145600C1527A /* VideoState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0E7C52B87145600C1527A /* VideoState.cpp */; };
+		2EB0E7CA2B87158500C1527A /* Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0E7C82B87158500C1527A /* Clock.cpp */; };
+		2EB0E7D02B87212200C1527A /* AudioQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0E7CE2B87212200C1527A /* AudioQueue.cpp */; };
+		2EB0E7D32B87213E00C1527A /* VideoQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0E7D12B87213E00C1527A /* VideoQueue.cpp */; };
+		2EB854F22B887FC300E2497C /* Decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2EB854F02B887FC300E2497C /* Decoder.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +50,17 @@
 		2E209AFA2A5ADDAA005E8128 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswscale.a; path = ../../../../../../opt/homebrew/Cellar/ffmpeg/6.0/lib/libswscale.a; sourceTree = "<group>"; };
 		2E80BAEC2AAC5387007104D7 /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = ../../../../../../opt/homebrew/Cellar/sdl2/2.28.2/lib/libSDL2.a; sourceTree = "<group>"; };
 		2E80BAED2AAC5387007104D7 /* libSDL2main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2main.a; path = ../../../../../../opt/homebrew/Cellar/sdl2/2.28.2/lib/libSDL2main.a; sourceTree = "<group>"; };
+		2EB0E7C52B87145600C1527A /* VideoState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VideoState.cpp; sourceTree = "<group>"; };
+		2EB0E7C62B87145600C1527A /* VideoState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VideoState.hpp; sourceTree = "<group>"; };
+		2EB0E7C82B87158500C1527A /* Clock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Clock.cpp; sourceTree = "<group>"; };
+		2EB0E7C92B87158500C1527A /* Clock.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Clock.hpp; sourceTree = "<group>"; };
+		2EB0E7CC2B871D9800C1527A /* ThreadSafeQueueTemp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ThreadSafeQueueTemp.hpp; sourceTree = "<group>"; };
+		2EB0E7CE2B87212200C1527A /* AudioQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AudioQueue.cpp; sourceTree = "<group>"; };
+		2EB0E7CF2B87212200C1527A /* AudioQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AudioQueue.hpp; sourceTree = "<group>"; };
+		2EB0E7D12B87213E00C1527A /* VideoQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = VideoQueue.cpp; sourceTree = "<group>"; };
+		2EB0E7D22B87213E00C1527A /* VideoQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = VideoQueue.hpp; sourceTree = "<group>"; };
+		2EB854F02B887FC300E2497C /* Decoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Decoder.cpp; sourceTree = "<group>"; };
+		2EB854F12B887FC300E2497C /* Decoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Decoder.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +105,17 @@
 			isa = PBXGroup;
 			children = (
 				2E209AEB2A5AD631005E8128 /* main.cpp */,
+				2EB0E7C52B87145600C1527A /* VideoState.cpp */,
+				2EB0E7C62B87145600C1527A /* VideoState.hpp */,
+				2EB0E7C82B87158500C1527A /* Clock.cpp */,
+				2EB0E7C92B87158500C1527A /* Clock.hpp */,
+				2EB0E7CC2B871D9800C1527A /* ThreadSafeQueueTemp.hpp */,
+				2EB0E7CE2B87212200C1527A /* AudioQueue.cpp */,
+				2EB0E7CF2B87212200C1527A /* AudioQueue.hpp */,
+				2EB0E7D12B87213E00C1527A /* VideoQueue.cpp */,
+				2EB0E7D22B87213E00C1527A /* VideoQueue.hpp */,
+				2EB854F02B887FC300E2497C /* Decoder.cpp */,
+				2EB854F12B887FC300E2497C /* Decoder.hpp */,
 			);
 			path = video_player;
 			sourceTree = "<group>";
@@ -168,6 +195,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E209AEC2A5AD631005E8128 /* main.cpp in Sources */,
+				2EB0E7CA2B87158500C1527A /* Clock.cpp in Sources */,
+				2EB854F22B887FC300E2497C /* Decoder.cpp in Sources */,
+				2EB0E7D02B87212200C1527A /* AudioQueue.cpp in Sources */,
+				2EB0E7D32B87213E00C1527A /* VideoQueue.cpp in Sources */,
+				2EB0E7C72B87145600C1527A /* VideoState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +324,9 @@
 		2E209AF02A5AD631005E8128 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/homebrew/Cellar/ffmpeg/6.0_1/lib,
@@ -309,7 +343,9 @@
 		2E209AF12A5AD631005E8128 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/opt/homebrew/Cellar/ffmpeg/6.0_1/lib,
