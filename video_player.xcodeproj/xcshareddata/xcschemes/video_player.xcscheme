@@ -52,6 +52,10 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
+            argument = " /Users/wbxie/Movies/test2.mp4"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = " /Users/wbxie/Movies/test.mp4"
             isEnabled = "YES">
          </CommandLineArgument>
