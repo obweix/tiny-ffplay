@@ -20,5 +20,229 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5688D3E3-3B92-4A2B-8E7B-5C8D10CF080A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "video_player/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "decode_audio(audio_buf, is, last_frame_pts)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8FC104F9-D7A4-45AF-9A7B-BADC1B8C7ED4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "video_player/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "decode_audio(audio_buf, is, last_frame_pts)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "8FC104F9-D7A4-45AF-9A7B-BADC1B8C7ED4 - 97b95949a4c16f2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "decode_audio(unsigned char*, VideoState*)"
+                  moduleName = "video_player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wbxie/userwbxie/code/FFmpeg%20Learning/video_player/video_player/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "700">
+               </Location>
+               <Location
+                  uuid = "8FC104F9-D7A4-45AF-9A7B-BADC1B8C7ED4 - 97b95949a4c16f45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "decode_audio(unsigned char*, VideoState*)"
+                  moduleName = "video_player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wbxie/userwbxie/code/FFmpeg%20Learning/video_player/video_player/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "728">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDC812B5-C1B3-47C0-9BF2-E29EDB03B51D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "video_player/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "decode_audio(audio_buf, is, last_frame_pts)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "FDC812B5-C1B3-47C0-9BF2-E29EDB03B51D - 97b95949a4c16155"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "decode_audio(unsigned char*, VideoState*)"
+                  moduleName = "video_player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wbxie/userwbxie/code/FFmpeg%20Learning/video_player/video_player/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "FDC812B5-C1B3-47C0-9BF2-E29EDB03B51D - 97b95949a4c16174"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "decode_audio(unsigned char*, VideoState*)"
+                  moduleName = "video_player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wbxie/userwbxie/code/FFmpeg%20Learning/video_player/video_player/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "956">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C873644B-63BA-4F85-9E9A-FB418C8E25DC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "video_player/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "434"
+            endingLineNumber = "434"
+            landmarkName = "stream_component_open(is, stream_index)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F1175D1-328B-41FF-8B20-611D9C168A90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "video_player/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "382"
+            endingLineNumber = "382"
+            landmarkName = "video_thread(is)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "6F1175D1-328B-41FF-8B20-611D9C168A90 - 13545fc8f0296a18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "video_thread(VideoState&amp;)"
+                  moduleName = "video_player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wbxie/userwbxie/code/FFmpeg%20Learning/video_player/video_player/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "360"
+                  endingLineNumber = "360"
+                  offsetFromSymbolStart = "836">
+               </Location>
+               <Location
+                  uuid = "6F1175D1-328B-41FF-8B20-611D9C168A90 - 13545fc8f0296a39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "video_thread(VideoState&amp;)"
+                  moduleName = "video_player"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wbxie/userwbxie/code/FFmpeg%20Learning/video_player/video_player/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "359"
+                  endingLineNumber = "359"
+                  offsetFromSymbolStart = "832">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D82D5513-BD7F-48A5-9F67-67B244783EE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "video_player/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "video_refresh(is, texture, last_frame_duration)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DF31FF3-3F08-4E9F-AB8B-F26E636E4A37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "video_player/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "371"
+            endingLineNumber = "371"
+            landmarkName = "video_thread(is)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA43F89B-E97D-40B3-926D-1AC0089DA14A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "video_player/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
+            landmarkName = "video_refresh(is, texture, last_frame_duration)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

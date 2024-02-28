@@ -65,7 +65,7 @@ public:
     
     AVFrame* wanted_frame; // audio wanted frame in the format that set to SDL.
     
-    
+    double last_video_refresh_time = -1;
     
 public:
     VideoState() = default;
@@ -98,6 +98,7 @@ public:
         this->audio_buf_size = is.audio_buf_size;
         
         this->wanted_frame = is.wanted_frame;
+        this->last_video_refresh_time = is.last_video_refresh_time;
         
         return *this;
     }
@@ -129,6 +130,8 @@ public:
         this->audio_buf_size = is.audio_buf_size;
         
         this->wanted_frame = is.wanted_frame;
+        
+        this->last_video_refresh_time = is.last_video_refresh_time;
     }
     
     
